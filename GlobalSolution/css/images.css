@@ -1,0 +1,63 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--color-light);
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    gap: 2vw;
+}
+
+.gallery-item {
+    flex: 0 0 20%;
+    /* Define a largura das imagens */
+    margin: 10px;
+    transition: transform 0.3s;
+    width: 400px;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+    /* Aumenta a escala em 10% */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.bg-image-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),
+        url(../images/fundoNuDa\ \(1\).png)
+}
+
+.bg-image-2 {
+    background: linear-gradient(to right, #1c3f2b, #548f6c);
+}
+
+.bg-image-3 {
+    background: linear-gradient(to right, #f77337, #a43934);
+}
+
+.bg-image-4 {
+    background: linear-gradient(to right, #1c3f2b, #548f6c);
+}
+
+.bg-image-5 {
+    background: linear-gradient(to right, #f77337, #a43934);
+}
+
+.bg-image-6 {
+    background: linear-gradient(to right, #1c3f2b, #548f6c);
+}
+
+.images {
+    padding: 2px;
+    width: 115px;
+}
+
+.images-logo {
+    padding: 2px;
+    width: 500px;
+}
